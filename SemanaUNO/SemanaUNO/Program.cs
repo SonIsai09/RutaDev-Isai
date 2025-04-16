@@ -60,6 +60,16 @@ while (!salir) {
             eje5.Calculadora();
             break;
 
+        case "6":
+            Ejercicio6 eje6 = new Ejercicio6();
+
+            eje6.ParImpart();
+            break;
+        case "7":
+            Ejercicio7 eje7 = new Ejercicio7();
+
+            eje7.PosiNegativCero();
+            break;
         case "14":
             salir = true;
             break;
