@@ -1,0 +1,14 @@
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.exe
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.deps.json
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.runtimeconfig.json
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.dll
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.pdb
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.AssemblyInfoInputs.cache
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.AssemblyInfo.cs
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.csproj.CoreCompileInputs.cache
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.dll
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\refint\SemanaUNO.dll
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.pdb
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.genruntimeconfig.cache
+C:\Users\Son_Isai\source\repos\SemanaUNO\SemanaUNO\obj\Debug\net8.0\ref\SemanaUNO.dll
