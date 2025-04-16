@@ -27,7 +27,10 @@ while (!salir) {
 
     Console.WriteLine("13. Ejercicio 13");
     Console.WriteLine("14. Ejercicio 14");
-    Console.WriteLine("14. Salir");
+    Console.WriteLine("15. Ejercicio 15");
+    Console.WriteLine("16. Salir");
+    Console.WriteLine("");
+    Console.WriteLine("Opcción ");
     string opcion = Console.ReadLine();
 
 
@@ -70,10 +73,59 @@ while (!salir) {
 
             eje7.PosiNegativCero();
             break;
+
+        case "8":
+            Ejercicio8 eje8 = new Ejercicio8();
+
+            eje8.ComparacionNum(); ;
+            break;
+
+        case "9":
+            Ejercicio9 eje9 = new Ejercicio9();
+
+            eje9.BucleFor(); ;
+            break;
+        case "10":
+            Ejercicio10 eje10 = new Ejercicio10();
+
+            eje10.SumaAcumulada(); ;
+            break;
+
+        case "11":
+            Ejercicio11 eje11 = new Ejercicio11();
+
+            eje11.TablaMultiplicar(); ;
+            break;
+        case "12":
+            Ejercicio12 eje12 = new Ejercicio12();
+
+            eje12.AdinaNumero(); ;
+            break;
+
+        case "13":
+            Ejercicio13 eje13 = new Ejercicio13();
+
+            eje13.ValidarEntrada(); ;
+            break;
+
         case "14":
+            Ejercicio14 eje14 = new Ejercicio14();
+
+            eje14.CalProm(); ;
+            break;
+
+        case "15":
+            Ejercicio15 eje15 = new Ejercicio15();
+
+            eje15.Entorno(); ;
+            break;
+        case "16":
             salir = true;
             break;
         default:
+            Console.WriteLine("Opción no válida. Presiona una tecla para volver a intentar...");
+            Console.ReadKey(true);
+            Console.Clear();
             break;
     }
 
