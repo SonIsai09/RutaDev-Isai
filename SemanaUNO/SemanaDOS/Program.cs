@@ -1,6 +1,4 @@
-﻿
-
-using SemanaDOS;
+﻿using SemanaDOS;
 
 Console.WriteLine("Semana DOS \n Ejercicios Prácticos - Programación Orientada a Objetos (POO) en C# ");
 
@@ -19,10 +17,12 @@ while (!salir)
 
     Console.WriteLine("6. Ejercicio 6");
     Console.WriteLine("7. Ejercicio 7");
-    Console.WriteLine("8. Ejercicio 8");
-    Console.WriteLine("9. Ejercicio 9");
+    Console.WriteLine("8. Ejercicio 8 y Ejercicio 9");
+
 
     Console.WriteLine("10. Ejercicio 10");
+
+    Console.WriteLine("x. Salir");
 
     Console.WriteLine("");
     Console.WriteLine("Opcción ");
@@ -117,14 +117,14 @@ while (!salir)
            new Persona("Pedro Gomez", 27),
 
 
-           
+
           new Estudiante("Carlos Sura", 25, "123456"),
           new Estudiante("Ana Torres", 24, "654321"),
           new Estudiante("Vladimir Orellana", 22, "8565654") ,
 
 
             };
-           
+
 
 
             Console.WriteLine("*** Lista de Personas ***");
@@ -139,22 +139,87 @@ while (!salir)
             break;
 
         case "8":
-    
+            Console.Clear();
 
-         
+            Calculadora calculadora = new Calculadora();
+            Console.Write("Ingrese el primer numero: ");
+            double numero1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Signo de operación '+','-','*','/': ");
+            string operacion = Console.ReadLine();
+
+
+
+            Console.Write("Ingrese el segundo numero: ");
+
+
+            double numero2 = Convert.ToDouble(Console.ReadLine());
+
+
+
+            double resultado = 0;
+            switch (operacion)
+            {
+                case "+":
+                    resultado = calculadora.sumar(numero1, numero2);
+                    Console.WriteLine($"Resultado de la suma: {resultado}");
+                    break;
+                case "-":
+                    resultado = calculadora.restar(numero1, numero2);
+                    Console.WriteLine($"Resultado de la resta: {resultado}");
+                    break;
+                case "*":
+                    resultado = calculadora.multiplicar(numero1, numero2);
+                    Console.WriteLine($"Resultado de la multiplicación: {resultado}");
+                    break;
+                case "/":
+                    try
+                    {
+                        resultado = calculadora.dividir(numero1, numero2);
+                        Console.WriteLine($"Resultado de la división: {resultado}");
+                    }
+
+
+                    catch (DivideByZeroException ex)
+                    {
+                        Console.WriteLine("Erro:  " + ex.Message);
+                    }
+
+
+                    break;
+                default:
+                    Console.WriteLine("Operación no válida.");
+                    break;
+            }
+            Console.ReadKey();
+            Console.Clear();
+
             break;
 
-        case "9":
-            
-            break;
+
         case "10":
-           
+
+            Console.Clear();
+            Persona[] pers = new Persona[3];
+
+            pers[0] = new Persona("Isaí Álvarez", 29);
+            pers[1] = new Persona("Juan Pérez", 25);
+            pers[2] = new Persona("María López", 30);
+
+            foreach (var p in pers)
+            {
+
+                p.Saludar();
+
+            }
+            Console.ReadKey();
+            Console.Clear();
+
 
             break;
 
-      
-          
-        case "16":
+
+
+        case "x":
             salir = true;
             break;
         default:
