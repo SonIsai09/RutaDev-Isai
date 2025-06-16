@@ -25,12 +25,13 @@ namespace SemanaDOS
             Edad = edad;
         }
 
-        public void Saludar()
+        public virtual void Saludar()
         {
-            Console.Clear();
-            Console.WriteLine($"Hola, mi nombre es {Nombre} y tengo {Edad} años.");
           
-            
+            Console.WriteLine($"Hola, mi nombre es {Nombre} y tengo {Edad} años.");
+           
+           
+
         }
 
     }

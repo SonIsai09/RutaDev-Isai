@@ -30,31 +30,36 @@ while (!salir)
     switch (opcion)
     {
         case "1":
+            Console.Clear();
             Persona person = new Persona();
 
             person.Nombre = "Isaí Álvarez";
-           person.Edad = 29;
+            person.Edad = 29;
 
-          person.Saludar();
-
-
+            person.Saludar();
+            Console.ReadKey();
+            Console.Clear();
 
 
             break;
         case "2":
-          Persona persona1 = new Persona("Isaí Álvarez", 29);
+            Console.Clear();
+            Persona persona1 = new Persona("Isaí Álvarez", 29);
             persona1.Saludar();
+            Console.ReadKey();
+            Console.Clear();
 
             break;
         case "3":
-
+            Console.Clear();
             Persona person3 = new Persona();
 
             person3.Nombre = "Isaí Álvarez";
             person3.Edad = -29;
 
             person3.Saludar();
-
+            Console.ReadKey();
+            Console.Clear();
             break;
 
         case "4":
@@ -67,12 +72,13 @@ while (!salir)
 
             Console.WriteLine("\n*****Calcular perímetro *****");
             Console.WriteLine($"Perímetro: {rectangulo.CalcularPerimetro()}");
-              
+
             Console.ReadKey();
             Console.Clear();
             break;
         case "5":
-           List< Persona> personas = new List<Persona>
+            Console.Clear();
+            List<Persona> personas = new List<Persona>
             {
                 new Persona("Isaí Álvarez", 29),
                 new Persona("Juan Pérez", 25),
@@ -82,11 +88,12 @@ while (!salir)
             {
                 p.Saludar();
             }
-
+            Console.ReadKey();
+            Console.Clear();
             break;
 
         case "6":
-         
+            Console.Clear();
             Estudiante estudiante = new Estudiante();
             {
                 estudiante.Nombre = "Isaí Álvarez";
@@ -94,31 +101,41 @@ while (!salir)
                 estudiante.Matricula = "123456";
 
 
-                estudiante.MostrarInformacion();
+                estudiante.Saludar();
             }
             ;
-          
+
             Console.ReadKey();
             Console.Clear();
 
             break;
         case "7":
             Console.Clear();
-            List<Persona> persona = new List<Persona>();
-           persona.Add(new Persona("Juan Perez", 25));
-            persona.Add(new Persona("Carolina Martinez", 26));
-            persona.Add(new Persona("Pedro Gomez", 27));
+            List<Persona> persona = new List<Persona>() {
+            new Persona("Juan Perez", 25),
+           new Persona("Carolina Martinez", 26),
+           new Persona("Pedro Gomez", 27),
 
-            persona.Add(new Estudiante("Carlos Sura",25,"123456"));
-            persona.Add(new Estudiante("Ana Torres", 24, "654321"));
-            persona.Add(new Estudiante("Vladimir Orellana", 22, "8565654"));
 
-            foreach (var p in persona)
+           
+          new Estudiante("Carlos Sura", 25, "123456"),
+          new Estudiante("Ana Torres", 24, "654321"),
+          new Estudiante("Vladimir Orellana", 22, "8565654") ,
+
+
+            };
+           
+
+
+            Console.WriteLine("*** Lista de Personas ***");
+            foreach (var per in persona)
             {
-                
-                    p.Saludar();
-                
+                Console.WriteLine("---------------------------------------------");
+                per.Saludar();
+                Console.WriteLine("---------------------------------------------");
             }
+            Console.ReadKey();
+            Console.Clear();
             break;
 
         case "8":

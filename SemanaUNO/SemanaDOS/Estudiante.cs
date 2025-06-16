@@ -19,11 +19,10 @@ namespace SemanaDOS
             Matricula = matricula;
         }
 
-        public void MostrarInformacion() { 
-        
-            Console.Clear();
-            Saludar();
-            Console.WriteLine("Matricula es: "+Matricula);
+        public override  void Saludar() {
+
+            
+            Console.WriteLine($"Hola, mi nombre es {Nombre}, \nEdad: {Edad} años \nMatrícula es {Matricula}.");
 
 
         }
