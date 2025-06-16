@@ -58,20 +58,49 @@ while (!salir)
             break;
 
         case "4":
-           
+            Rectangulo rectangulo = new Rectangulo();
+            rectangulo.Base = 5;
+            rectangulo.Altura = 10;
+            Console.Clear();
+            Console.WriteLine("*****Calcular área *****");
+            Console.WriteLine($"Área: {rectangulo.CalcularArea()}");
 
-           
+            Console.WriteLine("\n*****Calcular perímetro *****");
+            Console.WriteLine($"Perímetro: {rectangulo.CalcularPerimetro()}");
+              
+            Console.ReadKey();
+            Console.Clear();
             break;
         case "5":
-           
+           List< Persona> personas = new List<Persona>
+            {
+                new Persona("Isaí Álvarez", 29),
+                new Persona("Juan Pérez", 25),
+                new Persona("María López", 30)
+            };
+            foreach (var p in personas)
+            {
+                p.Saludar();
+            }
 
-         
             break;
 
         case "6":
          
+            Estudiante estudiante = new Estudiante();
+            {
+                estudiante.Nombre = "Isaí Álvarez";
+                estudiante.Edad = 29;
+                estudiante.Matricula = "123456";
 
-       
+
+                estudiante.MostrarInformacion();
+            }
+            ;
+          
+            Console.ReadKey();
+            Console.Clear();
+
             break;
         case "7":
            

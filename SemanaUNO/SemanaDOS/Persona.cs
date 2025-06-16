@@ -21,7 +21,7 @@ namespace SemanaDOS
         public Persona() { }
          public Persona(string nombre, int edad)
         {
-          nombre = nombre;
+            Nombre = nombre;
             Edad = edad;
         }
 
@@ -29,8 +29,8 @@ namespace SemanaDOS
         {
             Console.Clear();
             Console.WriteLine($"Hola, mi nombre es {Nombre} y tengo {Edad} años.");
-            Console.ReadKey();
-            Console.Clear();
+          
+            
         }
 
     }
