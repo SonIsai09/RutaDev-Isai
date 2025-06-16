@@ -103,9 +103,22 @@ while (!salir)
 
             break;
         case "7":
-           
+            Console.Clear();
+            List<Persona> persona = new List<Persona>();
+           persona.Add(new Persona("Juan Perez", 25));
+            persona.Add(new Persona("Carolina Martinez", 26));
+            persona.Add(new Persona("Pedro Gomez", 27));
 
-           
+            persona.Add(new Estudiante("Carlos Sura",25,"123456"));
+            persona.Add(new Estudiante("Ana Torres", 24, "654321"));
+            persona.Add(new Estudiante("Vladimir Orellana", 22, "8565654"));
+
+            foreach (var p in persona)
+            {
+                
+                    p.Saludar();
+                
+            }
             break;
 
         case "8":
