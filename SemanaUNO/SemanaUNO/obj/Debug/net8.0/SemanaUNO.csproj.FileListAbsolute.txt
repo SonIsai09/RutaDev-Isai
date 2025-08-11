@@ -57,3 +57,18 @@ C:\Users\Informatica\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug
 C:\Users\Informatica\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.pdb
 C:\Users\Informatica\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.genruntimeconfig.cache
 C:\Users\Informatica\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\ref\SemanaUNO.dll
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.exe
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.deps.json
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.runtimeconfig.json
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.dll
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\bin\Debug\net8.0\SemanaUNO.pdb
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.AssemblyInfoInputs.cache
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.AssemblyInfo.cs
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.csproj.CoreCompileInputs.cache
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.sourcelink.json
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.dll
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\refint\SemanaUNO.dll
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.pdb
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\SemanaUNO.genruntimeconfig.cache
+C:\Users\Isai Alvarez\Documents\GitHub\RutaDev-Isai\SemanaUNO\SemanaUNO\obj\Debug\net8.0\ref\SemanaUNO.dll

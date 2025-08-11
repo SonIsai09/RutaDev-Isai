@@ -75,6 +75,7 @@
     <Compile Include="Ejercicio4.vb" />
     <Compile Include="Ejercicio5.vb" />
     <Compile Include="Ejercicio6.vb" />
+    <Compile Include="Ejercicio7.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

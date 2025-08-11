@@ -15,6 +15,7 @@
             Console.WriteLine("4. Ejercicio 4")
             Console.WriteLine("5. Ejercicio 5")
             Console.WriteLine("6. Ejercicio 6")
+            Console.WriteLine("7. Ejercicio 7")
             Console.WriteLine("12. Salir")
 
             Console.Write("Ingrese su opción: ")
@@ -38,6 +39,10 @@
                 Case "6"
                     Dim ejercicio6 As New Ejercicio6()
                     ejercicio6.Main()
+
+                Case "7"
+                    Dim ejercicio7 As New Ejercicio7()
+                    ejercicio7.Main()
                 Case "12"
                     salir = True
                 Case Else
