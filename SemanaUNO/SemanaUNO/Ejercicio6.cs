@@ -11,7 +11,7 @@ namespace SemanaUNO
         public void ParImpart() { 
         
             Console.Clear();
-            double numero, resultado;
+            double resultado;
 
 
             Console.WriteLine("Ingrese un número:");
