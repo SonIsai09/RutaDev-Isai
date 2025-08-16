@@ -51,6 +51,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,12 +72,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejercicio1.vb" />
+    <Compile Include="Ejercicio10.vb" />
+    <Compile Include="Ejercicio11.Designer.vb">
+      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio11.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Ejercicio2.vb" />
     <Compile Include="Ejercicio3.vb" />
     <Compile Include="Ejercicio4.vb" />
     <Compile Include="Ejercicio5.vb" />
     <Compile Include="Ejercicio6.vb" />
     <Compile Include="Ejercicio7.vb" />
+    <Compile Include="Ejercicio8.vb" />
+    <Compile Include="Ejercicio9.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -94,6 +105,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ejercicio11.resx">
+      <DependentUpon>Ejercicio11.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

@@ -16,6 +16,10 @@
             Console.WriteLine("5. Ejercicio 5")
             Console.WriteLine("6. Ejercicio 6")
             Console.WriteLine("7. Ejercicio 7")
+            Console.WriteLine("8. Ejercicio 8")
+            Console.WriteLine("9. Ejercicio 9")
+            Console.WriteLine("10. Ejercicio 10")
+            Console.WriteLine("11. Ejercicio 11")
             Console.WriteLine("12. Salir")
 
             Console.Write("Ingrese su opción: ")
@@ -43,10 +47,30 @@
                 Case "7"
                     Dim ejercicio7 As New Ejercicio7()
                     ejercicio7.Main()
+
+                Case "8"
+                    Dim ejercicio8 As New Ejercicio8()
+                    ejercicio8.Main()
+
+                Case "9"
+                    Console.Clear()
+                    Dim ejercicio9 As New Ejercicio9()
+                    ejercicio9.Main()
+                Case "10"
+
+                    Dim ejercicio10 As New Ejercicio10()
+                    ejercicio10.Main()
+                Case "11"
+                    Console.Clear()
+                    Dim ejercicio11 As New Ejercicio11()
+                    ejercicio11.ShowDialog()
+
                 Case "12"
                     salir = True
                 Case Else
+
                     Console.WriteLine("Opción no válida, por favor intente de nuevo.")
+
             End Select
             Console.WriteLine()
         End While
