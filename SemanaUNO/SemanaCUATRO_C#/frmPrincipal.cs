@@ -15,38 +15,50 @@ namespace SemanaCUATRO_C_
         public frmPrincipal()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
+     
         }
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
 
         }
-
-
-        private void AbrirFormulario(Form formularioHijo)
+        private void AbrirFormHijo(Form formHijo)
         {
-            // Cerrar el formulario hijo actual si existe
-            foreach (Form frm in this.MdiChildren)
-            {
-                if (frm.GetType() == formularioHijo.GetType())
-                {
-                    frm.Close();
-                    break;
-                }
-            }
+            if (this.pnlContenedor.Controls.Count > 0)
+                this.pnlContenedor.Controls.RemoveAt(0);
 
-            formularioHijo.MdiParent = this;
-            formularioHijo.FormBorderStyle = FormBorderStyle.None;
-            formularioHijo.Dock = DockStyle.Fill;
 
-            
-            formularioHijo.Show();
+            imgInicio.Visible = false;
+
+    
+            formHijo.TopLevel = false;
+            formHijo.FormBorderStyle = FormBorderStyle.None;
+            formHijo.Dock = DockStyle.Fill;
+
+         
+            this.pnlContenedor.Controls.Add(formHijo);
+            this.pnlContenedor.Tag = formHijo;
+            formHijo.BringToFront();
+            formHijo.Show();
+        
+
         }
+
+
 
         private void btnFormSimple_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new frmFormSimple());
+            AbrirFormHijo(new frmFormSimple());
+        }
+
+        private void btnCal_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new frmCalculadora());
+        }
+
+        private void btnCalLogica_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new frmCalculadoraFunc());
         }
     }
 }

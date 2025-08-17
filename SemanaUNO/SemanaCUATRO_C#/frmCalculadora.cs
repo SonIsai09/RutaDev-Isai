@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SemanaCUATRO_C_
 {
-    public partial class frmFormSimple : Form
+    public partial class frmCalculadora : Form
     {
-        public frmFormSimple()
+        public frmCalculadora()
         {
             InitializeComponent();
-        }
-
-        private void btnClick_Click(object sender, EventArgs e)
-        {
-            lblSimpe.Text= "¡Botón presionado!";
         }
     }
 }

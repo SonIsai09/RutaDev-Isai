@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculadora.Designer.cs">
+      <DependentUpon>frmCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalculadoraFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculadoraFunc.Designer.cs">
+      <DependentUpon>frmCalculadoraFunc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFormSimple.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCalculadora.resx">
+      <DependentUpon>frmCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculadoraFunc.resx">
+      <DependentUpon>frmCalculadoraFunc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmFormSimple.resx">
       <DependentUpon>frmFormSimple.cs</DependentUpon>
     </EmbeddedResource>
