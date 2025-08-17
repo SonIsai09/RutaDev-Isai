@@ -214,6 +214,7 @@
             // 
             this.txtResultado.Location = new System.Drawing.Point(27, 121);
             this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(501, 20);
             this.txtResultado.TabIndex = 20;
             this.txtResultado.TextChanged += new System.EventHandler(this.txtResultado_TextChanged);

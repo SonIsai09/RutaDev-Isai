@@ -12,6 +12,9 @@ namespace SemanaCUATRO_C_
 {
     public partial class frmCalculadoraFunc : Form
     {
+        double primerNumero = 0;
+        string operacion = "";
+        bool nuevaOperacion = true;
         public frmCalculadoraFunc()
         {
             InitializeComponent();
@@ -64,6 +67,7 @@ namespace SemanaCUATRO_C_
 
         private void btnOcho_Click(object sender, EventArgs e)
         {
+          
             txtResultado.Text += "8";
         }
 
