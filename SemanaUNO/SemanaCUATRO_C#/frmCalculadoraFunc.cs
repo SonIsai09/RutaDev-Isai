@@ -14,7 +14,7 @@ namespace SemanaCUATRO_C_
         double primerNumero = 0;
         string operacion = "";
         bool limpiar = false;
-        public string Texto { get; private set; } = "0";
+     
         public frmCalculadoraFunc()
         {
             InitializeComponent();
@@ -44,14 +44,14 @@ namespace SemanaCUATRO_C_
 
         public void AgregarNumero(string numero)
         {
-            if (limpiar || Texto == "0")
+            if (limpiar || txtResultado.Text == "0")
             {
-                Texto = numero;
+                txtResultado.Text = numero;
                 limpiar = false;
             }
             else
             {
-                Texto += numero;
+                txtResultado.Text += numero;
             }
         }
 

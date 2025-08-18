@@ -57,6 +57,7 @@
             this.lblSimple.Size = new System.Drawing.Size(275, 33);
             this.lblSimple.TabIndex = 1;
             this.lblSimple.Text = "Formulario Simple";
+            this.lblSimple.Click += new System.EventHandler(this.lblSimple_Click);
             // 
             // lblSimpe
             // 

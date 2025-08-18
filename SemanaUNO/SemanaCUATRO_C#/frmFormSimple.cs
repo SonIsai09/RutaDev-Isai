@@ -21,5 +21,10 @@ namespace SemanaCUATRO_C_
         {
             lblSimpe.Text= "¡Botón presionado!";
         }
+
+        private void lblSimple_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
