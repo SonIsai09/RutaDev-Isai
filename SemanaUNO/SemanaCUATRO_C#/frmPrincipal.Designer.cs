@@ -36,13 +36,13 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.imgInicio = new System.Windows.Forms.PictureBox();
             this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pnlSuperior = new System.Windows.Forms.Panel();
             this.lblInicio = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.imgInicio)).BeginInit();
             this.pnlContenedor.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.pnlSuperior.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnFormSimple
@@ -65,6 +65,7 @@
             this.btnSeparacionLog.TabIndex = 5;
             this.btnSeparacionLog.Text = "Separación Básica (C#)";
             this.btnSeparacionLog.UseVisualStyleBackColor = true;
+            this.btnSeparacionLog.Click += new System.EventHandler(this.btnSeparacionLog_Click);
             // 
             // btnCalLogica
             // 
@@ -122,19 +123,6 @@
             this.pnlContenedor.Size = new System.Drawing.Size(740, 425);
             this.pnlContenedor.TabIndex = 6;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.btnCalLogica);
-            this.panel1.Controls.Add(this.btnFormSimple);
-            this.panel1.Controls.Add(this.btnSeparacionLog);
-            this.panel1.Controls.Add(this.btnCal);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(173, 425);
-            this.panel1.TabIndex = 6;
-            // 
             // pnlSuperior
             // 
             this.pnlSuperior.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -157,6 +145,19 @@
             this.lblInicio.TabIndex = 0;
             this.lblInicio.Text = "WinForms C#";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.btnCalLogica);
+            this.panel1.Controls.Add(this.btnFormSimple);
+            this.panel1.Controls.Add(this.btnSeparacionLog);
+            this.panel1.Controls.Add(this.btnCal);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(173, 425);
+            this.panel1.TabIndex = 6;
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -170,9 +171,9 @@
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgInicio)).EndInit();
             this.pnlContenedor.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.pnlSuperior.ResumeLayout(false);
             this.pnlSuperior.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

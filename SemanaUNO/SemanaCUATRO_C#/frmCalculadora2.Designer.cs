@@ -1,6 +1,6 @@
 ﻿namespace SemanaCUATRO_C_
 {
-    partial class frmCalculadoraFunc
+    partial class frmCalculadora2
     {
         /// <summary>
         /// Required designer variable.
@@ -46,8 +46,8 @@
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.lblCalculadora = new System.Windows.Forms.Label();
             this.btnSeis = new System.Windows.Forms.Button();
-            this.pnlCal = new System.Windows.Forms.Panel();
-            this.pnlCal.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnIgual
@@ -59,14 +59,14 @@
             this.btnIgual.TabIndex = 36;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = true;
-            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click_1);
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(27, 147);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(78, 37);
+            this.btnClear.Size = new System.Drawing.Size(90, 37);
             this.btnClear.TabIndex = 35;
             this.btnClear.Text = "CE";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -222,7 +222,6 @@
             this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(501, 20);
             this.txtResultado.TabIndex = 20;
-            this.txtResultado.TextChanged += new System.EventHandler(this.txtResultado_TextChanged);
             // 
             // lblCalculadora
             // 
@@ -231,7 +230,7 @@
             this.lblCalculadora.BackColor = System.Drawing.Color.Transparent;
             this.lblCalculadora.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCalculadora.ForeColor = System.Drawing.Color.White;
-            this.lblCalculadora.Location = new System.Drawing.Point(128, 20);
+            this.lblCalculadora.Location = new System.Drawing.Point(111, 20);
             this.lblCalculadora.Name = "lblCalculadora";
             this.lblCalculadora.Size = new System.Drawing.Size(393, 33);
             this.lblCalculadora.TabIndex = 2;
@@ -248,21 +247,21 @@
             this.btnSeis.UseVisualStyleBackColor = true;
             this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
-            // pnlCal
+            // panel1
             // 
-            this.pnlCal.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pnlCal.Controls.Add(this.lblCalculadora);
-            this.pnlCal.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlCal.Location = new System.Drawing.Point(0, 0);
-            this.pnlCal.Name = "pnlCal";
-            this.pnlCal.Size = new System.Drawing.Size(577, 65);
-            this.pnlCal.TabIndex = 19;
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel1.Controls.Add(this.lblCalculadora);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(543, 65);
+            this.panel1.TabIndex = 19;
             // 
-            // frmCalculadoraFunc
+            // frmCalculadora2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 413);
+            this.ClientSize = new System.Drawing.Size(543, 424);
             this.Controls.Add(this.btnIgual);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDiv);
@@ -280,12 +279,11 @@
             this.Controls.Add(this.btnUno);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnSeis);
-            this.Controls.Add(this.pnlCal);
-            this.Name = "frmCalculadoraFunc";
-            this.Text = "frmCalculadoraFunc";
-            this.Load += new System.EventHandler(this.frmCalculadoraFunc_Load);
-            this.pnlCal.ResumeLayout(false);
-            this.pnlCal.PerformLayout();
+            this.Controls.Add(this.panel1);
+            this.Name = "frmCalculadora2";
+            this.Text = "frmCalculadora2";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -311,6 +309,6 @@
         private System.Windows.Forms.TextBox txtResultado;
         private System.Windows.Forms.Label lblCalculadora;
         private System.Windows.Forms.Button btnSeis;
-        private System.Windows.Forms.Panel pnlCal;
+        private System.Windows.Forms.Panel panel1;
     }
 }

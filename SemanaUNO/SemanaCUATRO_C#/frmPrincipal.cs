@@ -60,5 +60,10 @@ namespace SemanaCUATRO_C_
         {
             AbrirFormHijo(new frmCalculadoraFunc());
         }
+
+        private void btnSeparacionLog_Click(object sender, EventArgs e)
+        {
+            AbrirFormHijo(new frmCalculadora2());
+        }
     }
 }

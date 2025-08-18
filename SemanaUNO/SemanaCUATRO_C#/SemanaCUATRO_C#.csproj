@@ -52,6 +52,12 @@
     <Compile Include="frmCalculadora.Designer.cs">
       <DependentUpon>frmCalculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCalculadora2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculadora2.Designer.cs">
+      <DependentUpon>frmCalculadora2.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCalculadoraFunc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,10 +76,14 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogicaCalculadora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCalculadora.resx">
       <DependentUpon>frmCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculadora2.resx">
+      <DependentUpon>frmCalculadora2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCalculadoraFunc.resx">
       <DependentUpon>frmCalculadoraFunc.cs</DependentUpon>
