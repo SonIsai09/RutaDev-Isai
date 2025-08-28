@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmSimple
     Private Sub btnClick_Click(sender As Object, e As EventArgs) Handles btnClick.Click
         lblMensaje.Text = "¡Botón presionado!"
     End Sub
